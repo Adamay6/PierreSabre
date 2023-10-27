@@ -12,9 +12,8 @@ public class Commercant extends Humain {
 		return argent;
 	}
 
-	public int recevoir(int argent1) {
+	public void recevoir(int argent1) {
 		argent = argent + argent1;
 		parler(argent1 + " sous ! Je te remercie généreux donnateur!");
-		return argent;
 	}
 }
